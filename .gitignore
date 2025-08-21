@@ -1,0 +1,8 @@
+llm-c/build
+*.o
+*.so
+.vscode
+build/
+llm-c/build/
+*.jar
+docs/figures/*.jar
