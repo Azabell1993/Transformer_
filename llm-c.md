@@ -235,7 +235,7 @@ int main(){
 * **빌드 호환성**
 
   * Apple Silicon(arm64)에서 `-march=native`가 Clang에 거부되므로,   
-  `build.sh` 또는 CMake에서 `if(APPLE AND CMAKE_OSX_ARCHITECTURES STREQUAL "arm64")` 조건부로 제거하는 메모를 README에 추가 권장.
+  `build.sh` 또는 CMake에서 `if(APPLE AND CMAKE_OSX_ARCHITECTURES STREQUAL "arm64")` 조건부로 제거 필요.  
 
 * **복잡도 표기 주석**
 
@@ -243,12 +243,7 @@ int main(){
 
 * **데모 코드 설명 보완**
 
-  * 현재 `Hello, world!`는 **로짓 기반 샘플링 없이 고정 문자열 출력**임을 주석에 강조하면, 연구용 코드와 데모 성격이 구분됨.
-
-* **용어 통일**
-
-  * `스크립트 사용 법` → `스크립트 사용법` 같이 띄어쓰기 일관성.
-  * Vocab 표현: `"<bos>", "Hello", ",", "world", "!", "<eos>"`로 표기.
+  * 현재 `Hello, world!`는 **로짓 기반 샘플링 없이 고정 문자열 출력**임을 참조.  
 
 ---
 
